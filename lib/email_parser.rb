@@ -11,7 +11,7 @@ class EmailParser
 
   def parse
     emailArr = []
-    @emails.split(/[\,\s]/).each{|e|
+    @emails.split(/[\,,\s]/).each{|e|
       emailArr << e
     }
     emailArr.to_set
