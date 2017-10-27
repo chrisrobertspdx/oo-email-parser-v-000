@@ -12,7 +12,7 @@ class EmailParser
   def parse
     emailArr = []
     @emails.split(/[\,,\s]\s?/).each{|e|
-      if !emailarray.include?(e)
+      if !emailArr.include?(e)
         emailArr << e
       end
     }
