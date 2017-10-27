@@ -14,7 +14,7 @@ class EmailParser
     @emails.split(/[\,\s]/).each{|e|
       emailArr << e
     }
-    emailArr.to_s
+    emailArr.to_set
   end
 
 end
